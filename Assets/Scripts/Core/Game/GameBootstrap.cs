@@ -35,6 +35,9 @@ namespace Core.Game
         
         private void Awake()
         {
+            
+            Application.targetFrameRate = 60;
+            
             wheelConfigs = new Dictionary<WheelType, WheelConfig>
             {
                 { WheelType.Bronze, bronzeWheel },
