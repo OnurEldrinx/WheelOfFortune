@@ -62,16 +62,25 @@ namespace Core.Wheel
     {
         private readonly float step;
         private readonly int tierSpan;
+        private readonly float maxMultiplier; // cap
 
-        public ScaleRewardsByTier(float step = 0.15f, int tierSpan = 5)
+        public ScaleRewardsByTier(float step = 0.25f, int tierSpan = 5, float maxMultiplier = 10f)
         {
             this.step = step;
             this.tierSpan = tierSpan;
+            this.maxMultiplier = maxMultiplier;
         }
 
         public void Apply(int zone, ZoneService zones, WheelConfig cfg)
         {
-            float mul = 1f + Mathf.Floor((zone - 1) / (float)tierSpan) * step;
+            // Exponential growth per tier
+            int tierIndex = Mathf.FloorToInt((zone - 1) / (float)tierSpan);
+            float mul = Mathf.Pow(1f + step, tierIndex);
+
+            // Cap
+            if (mul > maxMultiplier)
+                mul = maxMultiplier;
+
             for (int i = 0; i < cfg.slices.Count; i++)
             {
                 var s = cfg.slices[i];
@@ -83,4 +92,5 @@ namespace Core.Wheel
             }
         }
     }
+
 }

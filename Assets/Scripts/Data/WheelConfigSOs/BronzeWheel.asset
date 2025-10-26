@@ -19,34 +19,34 @@ MonoBehaviour:
     type: 3}
   wheelInfo: Basic rewards, but gets better & better!
   slices:
-  - id: Standard Chest
+  - id: Cash
     type: 0
-    value: 10
-    icon: {fileID: 21300000, guid: f7a55d841bdea23429b649898a3d6173, type: 3}
-  - id: Gold
+    value: 50
+    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
+  - id: Bronze Chest
     type: 0
     value: 1
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Cash
+    icon: {fileID: 21300000, guid: 5e9eb6bfd1ae2324a9df534c71461f67, type: 3}
+  - id: Small Chest
     type: 0
-    value: 300
-    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
+    value: 1
+    icon: {fileID: 21300000, guid: 424bbc471efd03c49aab4d04c59f05f3, type: 3}
   - id: Gold
     type: 0
-    value: 100
+    value: 5
     icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Cash
-    type: 0
-    value: 1000
-    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
-  - id: Super Chest
+  - id: Pistol Points
     type: 0
     value: 10
-    icon: {fileID: 21300000, guid: b6ca44d86a344bb4c9adf19a204055d6, type: 3}
-  - id: Gold
+    icon: {fileID: 21300000, guid: e3fcd993939117046b376cd914bdc5f0, type: 3}
+  - id: Healthshot Neurostim
     type: 0
-    value: 200
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+    value: 1
+    icon: {fileID: 21300000, guid: 2d4df5491841daa4e9054d7e669ba11e, type: 3}
+  - id: Baseball Cap
+    type: 0
+    value: 1
+    icon: {fileID: -1760606472, guid: c63d608de59b03042b91cdaadb246d4d, type: 3}
   - id: Bomb
     type: 1
     value: 1

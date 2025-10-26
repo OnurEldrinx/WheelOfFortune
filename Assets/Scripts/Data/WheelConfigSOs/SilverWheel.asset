@@ -19,37 +19,37 @@ MonoBehaviour:
     type: 3}
   wheelInfo: Nice rewards, also gets better & better!
   slices:
+  - id: Silver Chest
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: ab7e74bb121da54428304ecf439bb9a9, type: 3}
   - id: Standard Chest
     type: 0
-    value: 10
+    value: 1
     icon: {fileID: 21300000, guid: f7a55d841bdea23429b649898a3d6173, type: 3}
+  - id: Rifle Points
+    type: 0
+    value: 20
+    icon: {fileID: 21300000, guid: 8f010f5a6f2d90341908c9e32f1bbd7d, type: 3}
   - id: Gold
+    type: 0
+    value: 20
+    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+  - id: Healthshot Regenerator
     type: 0
     value: 1
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+    icon: {fileID: 21300000, guid: 22b09ab2116dbbd4fab5cd759c325837, type: 3}
   - id: Cash
     type: 0
-    value: 300
+    value: 250
     icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
-  - id: Gold
-    type: 0
-    value: 100
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Cash
-    type: 0
-    value: 1000
-    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
-  - id: Super Chest
-    type: 0
-    value: 10
-    icon: {fileID: 21300000, guid: b6ca44d86a344bb4c9adf19a204055d6, type: 3}
-  - id: Gold
-    type: 0
-    value: 200
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Famas
+  - id: Tier 2 MLE
     type: 0
     value: 1
-    icon: {fileID: 1767426891, guid: 361550dec89fec347b4393245f2c2263, type: 3}
+    icon: {fileID: 21300000, guid: 2169ba2698ae9d840b86452265771206, type: 3}
+  - id: Tier 1 Shotgun
+    type: 0
+    value: 1
+    icon: {fileID: 938786052, guid: d50e26bf6e3bc5f4f80399dd43e02f8a, type: 3}
   spinDuration: 4
   themeColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}

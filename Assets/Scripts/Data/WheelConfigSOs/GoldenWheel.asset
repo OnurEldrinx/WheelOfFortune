@@ -19,37 +19,37 @@ MonoBehaviour:
     type: 3}
   wheelInfo: Crazy good rewards!
   slices:
-  - id: Standard Chest
-    type: 0
-    value: 10
-    icon: {fileID: 21300000, guid: f7a55d841bdea23429b649898a3d6173, type: 3}
-  - id: Gold
-    type: 0
-    value: 1
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Cash
-    type: 0
-    value: 300
-    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
   - id: Gold
     type: 0
     value: 100
     icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+  - id: Golden Chest
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: 81f7e0b5949eee340a4150b5ae6e4177, type: 3}
+  - id: Big Chest
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: 2eed7600440e49445baa0b66a7fa86a3, type: 3}
+  - id: Super Chest
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: b6ca44d86a344bb4c9adf19a204055d6, type: 3}
+  - id: Sniper Points
+    type: 0
+    value: 40
+    icon: {fileID: 21300000, guid: 07996dfde4387724c997121e62773a68, type: 3}
   - id: Cash
     type: 0
     value: 1000
     icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
-  - id: Super Chest
-    type: 0
-    value: 10
-    icon: {fileID: 21300000, guid: b6ca44d86a344bb4c9adf19a204055d6, type: 3}
-  - id: Gold
-    type: 0
-    value: 200
-    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
-  - id: Rifle
+  - id: Tier 3 Sniper
     type: 0
     value: 1
-    icon: {fileID: 625030296, guid: 46d36a599d7ec7d4dac4606c8e9288e8, type: 3}
+    icon: {fileID: 1991003129, guid: 1dc489f14cd7fb7468a633b02810a3a7, type: 3}
+  - id: Bayonette Summer Vice
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: f2f6c04e94578de49a2cc3eeb71317ff, type: 3}
   spinDuration: 4
   themeColor: {r: 1, g: 0.6227779, b: 0, a: 1}
