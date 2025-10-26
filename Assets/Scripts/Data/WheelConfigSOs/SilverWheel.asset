@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e055c117dcc281a40a66640efd454b45, type: 3}
+  m_Name: SilverWheel
+  m_EditorClassIdentifier: 
+  wheelName: SILVER SPIN
+  wheelType: 1
+  wheelSprite: {fileID: 21300000, guid: 0881ec7fb64881848bd9dc334b709f90, type: 3}
+  wheelIndicatorSprite: {fileID: 21300000, guid: 54fa478b3a8adbf40a75ee26e9a2a1cd,
+    type: 3}
+  wheelInfo: Nice rewards, also gets better & better!
+  slices:
+  - id: Standard Chest
+    type: 0
+    value: 10
+    icon: {fileID: 21300000, guid: f7a55d841bdea23429b649898a3d6173, type: 3}
+  - id: Gold
+    type: 0
+    value: 1
+    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+  - id: Cash
+    type: 0
+    value: 300
+    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
+  - id: Gold
+    type: 0
+    value: 100
+    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+  - id: Cash
+    type: 0
+    value: 1000
+    icon: {fileID: 21300000, guid: 3b10a1bea62c73e478bce37232bcb9ad, type: 3}
+  - id: Super Chest
+    type: 0
+    value: 10
+    icon: {fileID: 21300000, guid: b6ca44d86a344bb4c9adf19a204055d6, type: 3}
+  - id: Gold
+    type: 0
+    value: 200
+    icon: {fileID: 21300000, guid: 2629d151dbce6404cbb804743ce96bb5, type: 3}
+  - id: Famas
+    type: 0
+    value: 1
+    icon: {fileID: 1767426891, guid: 361550dec89fec347b4393245f2c2263, type: 3}
+  spinDuration: 4
+  themeColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
