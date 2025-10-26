@@ -22,5 +22,23 @@ namespace Core.Game
             CurrentZone = Mathf.Max(1, zone);
             if (notify) ZoneChanged?.Invoke(CurrentZone);
         }
+        
+        public int GetNextSafeZone(int fromZone, bool strictlyGreater = true)
+        {
+            return NextMultipleOf(5, fromZone, strictlyGreater);
+        }
+
+        public int GetNextSuperZone(int fromZone, bool strictlyGreater = true)
+        {
+            return NextMultipleOf(30, fromZone, strictlyGreater);
+        }
+
+        private int NextMultipleOf(int n, int from, bool strictlyGreater)
+        {
+            if (from < 1) from = 1;
+            if (!strictlyGreater && from % n == 0) return from;
+            return ((from / n) + 1) * n;
+        }
+        
     }
 }
